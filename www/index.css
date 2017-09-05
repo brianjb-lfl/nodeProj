@@ -1,0 +1,82 @@
+*{
+  text-align: center;
+  background-color: #dadada;
+  font-family: Arial;
+}
+
+.result-item{
+  margin-bottom: 56px;
+}
+
+h1{
+  font-family: "Arial";
+  font-weight: bold;
+}
+.make-red{
+  color: #FA320A;
+}
+
+a{
+  text-decoration: none;
+}
+
+h4, a:visited{
+  font-size: 16px;
+  color:#FA320A;
+  margin-bottom: 0;
+}
+
+.js-query{
+  text-align: left;
+  padding: 0 4px;
+  height: 24px;
+  width: 200px;
+  background-color: white;
+  font-size: 12px;
+}
+
+button {
+  background-color: black;
+  height: 28px;
+  width: 72px;
+  color: white;
+  font-weight: bold;
+}
+
+iframe {
+height: 28.125vw;
+width: 50vw;
+}
+
+.lightboxcontainer {
+  width:100%;
+  text-align:left;
+}
+
+.lightboxleft {
+  width: 40%;
+  float:left;
+}
+
+.lightboxright {
+  float: center;
+}
+
+.lightboxright iframe {
+  min-height: 390px;
+  max-height: 700px;
+}
+
+.divtext {
+  margin: 0 36px;
+}
+
+@media (max-width: 800px) {
+  .lightboxleft {
+    width: 100%;
+  }
+  .lightboxright {
+    width: 100%;
+  }
+}
+
